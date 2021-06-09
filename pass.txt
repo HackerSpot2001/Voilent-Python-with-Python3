@@ -1,0 +1,6 @@
+admin:12345
+admin:password
+root:owaspbwa
+msfadmin:msfadmin
+guest:guest
+root:toor
