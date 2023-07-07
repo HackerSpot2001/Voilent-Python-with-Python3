@@ -34,7 +34,7 @@ def get_image_info(img):
             print("[-] {} does not conatin any Info. <ExifData> ".format(img))
 
     except:
-        print("[-] The {} does not contain any Meta data".format(img)
+        print("[-] The {} does not contain any Meta data".format(img))
 
 def downloadImage(img_source,fileName):
     try:

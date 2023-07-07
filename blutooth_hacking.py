@@ -44,7 +44,7 @@ def rfcommCon(addr, port):
         sock.connect((addr, port))
         print ('[+] RFCOMM Port ' + str(port) + ' open')
         sock.close()
-    except Exception, e:
+    except Exception as e:
         print ('[-] RFCOMM Port ' + str(port) + ' closed')
 
 def BT_service_discovery_protocal(addr):

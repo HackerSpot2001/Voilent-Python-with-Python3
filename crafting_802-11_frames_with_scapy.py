@@ -38,7 +38,7 @@ def duplicate_LLC(pkt):
     dsap = lpkt.dsap
     ssap = lpkt.ssap
     ctrl = lpkt.ctrl
-    npkt = LLC(dsap = dsap,ssap=ssap,=ctrl=ctrl)
+    npkt = LLC(dsap = dsap,ssap=ssap,ctrl=ctrl)
     return npkt
 
 def duplicate_IP(pkt):

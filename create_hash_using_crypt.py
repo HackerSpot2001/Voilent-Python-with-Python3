@@ -3,9 +3,7 @@ import crypt
 
 # def text2hash_encryptor(text,file):
 def text2hash_encryptor(passowrd_file):
-    '''
-    Create a Encrypt hash of an text 
-    '''
+    """ Create a Encrypt hash of an text """
     with open(passowrd_file,"r") as f:
         for word in f.readlines():
             word = word.strip('\n')

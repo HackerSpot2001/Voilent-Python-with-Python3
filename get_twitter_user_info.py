@@ -53,7 +53,7 @@ class reconPerson:
                 locations.append(city)
                 cityCnt+=1
 
-        print "[+] Found "+str(locCnt)+" locations "+"via Twitter API and "+str(cityCnt)+" locations from text search."
+        print ("[+] Found "+str(locCnt)+" locations "+"via Twitter API and "+str(cityCnt)+" locations from text search.")
         return locations
 
 def load_cities(cityFile):
